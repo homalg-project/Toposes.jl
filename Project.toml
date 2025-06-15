@@ -6,7 +6,7 @@ authors = [
 	"Mario Román <mromang08@gmail.com>",
 	"Fabian Zickgraf <f.zickgraf@dashdos.com>",
 ]
-version = "0.1.7"
+version = "0.1.8"
 
 [deps]
 CAP = "d64df2ee-d2bb-46f4-8cbc-f03bb858f8cb"
@@ -14,7 +14,7 @@ CartesianCategories = "c5961c08-7b59-43f4-a15e-02b3e7c87ab8"
 
 [compat]
 julia = "1.11"
-CAP = "0.4, 0.5"
+CAP = "0.4, 0.5, 0.6"
 CartesianCategories = "0.2, 0.3"
 
 [extras]
