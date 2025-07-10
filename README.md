@@ -9,7 +9,7 @@
 
 <!-- END HEADER -->
 
-This is the Julia version of [CAP-based][CAP_based] package [Toposes][Toposes].
+This is the Julia version of the [CAP-based][CAP_based] package [Toposes][Toposes].
 
 [CAP_based]: https://homalg-project.github.io/docs/CAP_project-based/
 [Toposes]: https://homalg-project.github.io/pkg/Toposes

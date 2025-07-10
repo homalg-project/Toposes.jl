@@ -6,7 +6,7 @@ authors = [
 	"Mario Román <mromang08@gmail.com>",
 	"Fabian Zickgraf <f.zickgraf@dashdos.com>",
 ]
-version = "0.1.9"
+version = "0.1.10"
 
 [deps]
 CAP = "d64df2ee-d2bb-46f4-8cbc-f03bb858f8cb"
