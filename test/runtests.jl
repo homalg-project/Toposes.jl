@@ -1,2 +1,4 @@
-using Test, Documenter, Toposes
-doctest(Toposes)
+using Test, Documenter, FinSetsForCAP, Toposes
+
+# test upto whitespaces
+doctest(Toposes; doctestfilters=[r"\s+" => ""])

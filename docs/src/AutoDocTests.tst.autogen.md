@@ -1,6 +1,6 @@
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> true
 true
@@ -23,7 +23,7 @@ julia> Display( Pf )
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> true
 true
@@ -49,7 +49,7 @@ true
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> true
 true
@@ -66,7 +66,7 @@ julia> Display( ia )
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> true
 true
@@ -137,7 +137,7 @@ julia> Display( iPa )
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> true
 true
@@ -166,7 +166,7 @@ julia> m = EmbeddingOfFinSets( L, G )
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> HasPushoutComplement( l, m )
 true
@@ -182,7 +182,7 @@ julia> Display( D )
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> true
 true
@@ -214,7 +214,7 @@ julia> Display( m )
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> HasPushoutComplement( l, m )
 true
@@ -228,7 +228,7 @@ julia> Display( c )
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> true
 true
@@ -266,7 +266,7 @@ julia> r = EmbeddingOfFinSets( K, R )
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> G = FinSet( [ 0, 1, 2, 3, 4, 5, 6, 10 ] );
 
@@ -282,7 +282,7 @@ julia> m = EmbeddingOfFinSets( L, G )
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> p = DPO( m, l, r );
 
@@ -303,7 +303,7 @@ julia> Display( H )
 ```
 
 ```jldoctest AutoDocTests
-julia> using CAP; using CartesianCategories; using FinSetsForCAP; using Toposes
+julia> using CAP, CartesianCategories, FinSetsForCAP, Toposes
 
 julia> true
 true

@@ -2,15 +2,21 @@ name = "Toposes"
 uuid = "36a15fe6-6211-457f-8fdb-aa2e0d2f3052"
 authors = [
 	"Mohamed Barakat <mohamed.barakat@uni-siegen.de>",
-	"Tom Kuhmichel <tom.kuhmichel@student.uni-siegen.de>",
+	"Fabian Zickgraf <fabian.zickgraf@uni-siegen.de>",
 	"Mario Román <mromang08@gmail.com>",
-	"Fabian Zickgraf <f.zickgraf@dashdos.com>",
+	"Tom Kuhmichel <tom.kuhmichel@student.uni-siegen.de>"
 ]
-version = "0.1.10"
+
+# Transpiled from GAP's Toposes v2025.08-03
+version = "0.1.11"
 
 [deps]
 CAP = "d64df2ee-d2bb-46f4-8cbc-f03bb858f8cb"
 CartesianCategories = "c5961c08-7b59-43f4-a15e-02b3e7c87ab8"
+
+[weakdeps]
+
+[extensions]
 
 [compat]
 julia = "1.11"
@@ -18,8 +24,8 @@ CAP = "0.4, 0.5, 0.6"
 CartesianCategories = "0.2, 0.3"
 
 [extras]
-Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 FinSetsForCAP = "0a079e9b-4bc2-44fe-a89b-7607e4464786"
 
 [targets]
