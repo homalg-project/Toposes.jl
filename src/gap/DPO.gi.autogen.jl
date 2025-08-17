@@ -19,11 +19,16 @@
     
     H = Pushout( C, [ n, r ] );
     
-    dpo = [ InjectionOfCofactorOfPushoutWithGivenPushout( [ n, r ], 1, H ),
-             InjectionOfCofactorOfPushoutWithGivenPushout( [ n, r ], 2, H ) ];
+    dpo = @NTupleGAP( 4,
+                   InjectionOfCofactorOfPushoutWithGivenPushout( [ n, r ], 1, H ),
+                   InjectionOfCofactorOfPushoutWithGivenPushout( [ n, r ], 2, H ),
+                   y,
+                   n );
     
     IsMonomorphism( dpo[1] );
     IsMonomorphism( dpo[2] );
+    IsMonomorphism( y );
+    IsMonomorphism( n );
     
     return dpo;
     
