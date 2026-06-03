@@ -8,7 +8,7 @@ authors = [
 ]
 
 # Transpiled from GAP's Toposes v2026.05-02
-version = "0.1.20"
+version = "0.1.21"
 
 [deps]
 CAP = "d64df2ee-d2bb-46f4-8cbc-f03bb858f8cb"
@@ -21,7 +21,7 @@ CartesianCategories = "c5961c08-7b59-43f4-a15e-02b3e7c87ab8"
 [compat]
 julia = "1.11"
 CAP = "0.8"
-CartesianCategories = "0.2, 0.3"
+CartesianCategories = "0.2, 0.3, 0.4"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
